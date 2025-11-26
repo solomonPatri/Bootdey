@@ -1,0 +1,348 @@
+*{
+
+    box-sizing: border-box;
+}
+body{
+
+background-color: #f2f7fc;;
+font-family: 'Roboto', sans-serif;
+text-align: center;
+border:none;
+
+}
+
+
+input ,label,select{
+  display: block;
+}
+
+.header-container{
+border:2px solid;
+display:grid;
+background-color: #111e2d;
+color:white;
+grid-template-columns: 2fr  2fr;
+grid-column-gap: 600px;
+padding-left: 200px;
+ padding: 15px 40px;
+
+}
+.logo-title-item{
+
+display:flex;
+align-items: self-start;
+padding-left: 200px;
+
+
+
+}
+
+.logo-item{
+    display: flex;
+    align-self: flex-start;
+    justify-self:end;
+    justify-content: center;
+    border-radius: 50%;
+    border-color: white;
+    background: #0eb9ed;
+    color:white;
+    font-weight: bold;
+    width:30px;
+    height: 30px;
+    align-items: center;
+    border:2px solid white;
+
+}
+
+.login-container{
+
+display: flex;
+align-items: center;
+justify-self: start;
+font-weight: 700;
+padding-right: 200px;
+}
+
+
+.aside-container {
+  display: flex;
+  gap: 12px;
+  padding:15px;
+  height: 100%;
+  background: white;
+  border-bottom: 1px solid #e5eaf0;
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+ 
+}
+.btn {
+    border: none;
+  padding: 10px 22px;
+  font-size: 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s;
+  color: white;
+}
+.btn-preview {
+  
+    background-color: #0eb9ed;
+}
+.btn-HTML    {
+     background: #88D1F2; 
+}
+.btn-CSS     {
+     background: #82D4F8; 
+}
+.btn-Js      {
+     background: #73C7F2; 
+}
+.btn-downland{
+     background: #FF6D6D;
+}
+.btn-FS{
+     background: #78E26F; 
+}
+.btn-actions {
+   background: #86D3F5;
+  padding: 10px 22px;
+  font-size: 18px;
+  border-radius: 8px;
+  color: white;
+  border: none;
+}
+
+.blue-color{
+
+color:#007bff;
+font-size: small;
+display: flex;
+justify-self: flex-end;
+align-items: center;
+justify-content: center;
+
+
+}
+.add-notes-item{
+    border:2px solid;
+width: 50%;
+height: 50%;
+border-radius: 20px;
+background-color: #007bff;
+color: white;
+display: flex;
+justify-self: flex-start;
+align-items: center;
+justify-content: center;
+font-size: small;
+}
+.main-container{
+
+    margin: 20px auto;
+    max-width: 1200px;
+     display:flex;
+     flex-direction:column;
+     background-color: #f2f5f9;
+  
+
+
+}
+.aside-second {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 40px;
+  height: 50px;
+  background: white;
+  border-radius: 20px ;
+  align-items: center;
+}
+.btn-all-notes {
+  background: #007bff;
+  color: white;
+}
+
+.box-article{
+border:2px solid;
+    border-radius: 8px;
+    background-color: white;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);    
+}
+.book-article{
+
+grid-area:bk;
+
+
+}
+.lunch-article{
+
+    grid-area:lnch;
+}
+.meet-article{
+    grid-area:mt;
+}
+.review-article{
+    grid-area: rvw;
+}
+.nightout-article{
+    grid-area:nght;
+}
+.launch-article{
+grid-area:lnc;
+
+}
+.design-article{
+    grid-area:dsg;
+}
+.foods-article{
+    grid-area: fds;
+}
+.employe-article{
+
+    grid-area:empl;
+
+}
+.grid-article{
+width: 70%;
+margin-top: 10px;
+display:grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 2fr 2fr 2fr;
+grid-gap:20px;
+grid-template-areas: 
+
+    "bk lnch mt"
+    "rvw nght lnc"
+    "dsg fds empl"
+;
+
+}
+.book-article{
+padding: 10px;
+
+}
+.lunch-article{
+    padding:10px;
+}
+.desc-article{
+border:2px solid;
+    display: flex;
+    font-size: small;
+    color: gray;
+    text-align: justify;
+    font-family: Arial, sans-serif;
+    padding: 10px;
+
+
+}
+.article-title{
+ display: flex;
+ justify-content: flex-start;
+font-size: large;
+font-weight: bold;
+}
+.date-article{
+border:2px solid;
+    display: flex;
+    justify-items: flex-start;
+    font-size: small;
+}
+
+.header-book{
+
+border-left: 4px solid #f4516c;
+
+}
+.header-lunch{
+
+     border-left: 4px solid #34bfa3;
+
+}
+.header-meet {
+    border-left: 4px solid #36a3f7; 
+}
+.header-review{
+
+border-left: 4px solid #f4516c;
+
+}
+.header-nightout
+{
+
+     border-left: 4px solid #34bfa3;
+
+}
+.header-launch {
+    border-left: 4px solid #36a3f7; 
+}
+.header-design{
+
+border-left: 4px solid #f4516c;
+
+}
+.header-foods{
+
+ border-left: 4px solid #34bfa3;
+
+}
+.header-employe{
+
+    border-left: 4px solid #36a3f7; 
+}
+
+
+.footer-article{
+
+display: flex;
+flex-direction: row;
+justify-self:flex-start;
+gap: 5px;
+}
+.icons-article{
+
+display: grid;
+grid-template-columns: 3fr 1fr;
+
+}
+
+.btn-forms{
+     background: none;
+  border: none;
+  
+  cursor: pointer;
+  font-size: 10px
+}
+
+.star-aprins{
+
+ color :gold;
+
+
+}
+.asside-second{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+
+.header-articles{
+
+    width: 70%;
+   margin-top: 10px;
+   display:grid;
+   gap: 100px;
+   grid-template-columns: 1fr auto 2fr ;
+    background-color: white;
+    border-radius:5px;
+
+}
+
+.modal-content{
+
+    display:block;
+}
